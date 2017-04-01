@@ -1,0 +1,50 @@
+html,
+body,
+ul {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.logo {
+	display: block;
+}
+
+.header {
+	border-bottom: 1px solid #efefef;
+}
+
+.header-content {
+	position: relative;
+	width: 990px;
+	margin: 0 auto;
+}
+
+.header .my-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.header .my-nav ul {
+	list-style-type: none;
+}
+
+.header .my-nav ul>li {
+	float: left;
+	min-width: 50px;
+	height: 114px;
+	line-height: 114px;
+	text-align: center;
+}
+
+.header .my-nav ul>li>a {
+	padding: 0px 20px;
+	display: block;
+	color: #333;
+	text-decoration: none;
+}
+
+.header .my-nav ul>li>a:hover {
+	color: #34B1AB;
+}
