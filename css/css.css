@@ -48,3 +48,48 @@ ul {
 .header .my-nav ul>li>a:hover {
 	color: #34B1AB;
 }
+
+.slide {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.slide>ul {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.slide>ul>li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: list-item;
+    width: 100%;
+    left: 0;
+    top: 0;
+    float: none;
+    z-index: 1;
+}
+
+.slide>ul>li.show {
+	position: relative;
+	display: list-item;
+	float: left;
+	z-index: 2;
+}
+
+.slide>ul>li>img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	z-index: 1;
+	position: relative;
+}
